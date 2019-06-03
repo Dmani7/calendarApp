@@ -1,6 +1,6 @@
 
 
-function selected_day() {
+/*function selected_day() {
     // var myButtonClasses = document.getElementById("btn1").classList;
     var my_Selected_day = document.getElementById("btn1").classList;
     // querySelecterAll
@@ -24,5 +24,15 @@ function selected_day() {
 
     }
 }
-
+*/
 // document.querySelector('.week-day').addEventListener('click', my_Selected_day);
+
+const dayCells = document.querySelectorAll( '.day-cell' )
+
+if(dayCells.length > 0) {
+    dayCells.forEach(dayCell => {
+        dayCell.addEventListener('click', event => {
+            event.target.classList.toggle('my-day-selected')
+        })
+    })
+}
