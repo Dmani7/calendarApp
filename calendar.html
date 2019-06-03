@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/font_styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="CSS/n_style.css"> -->
+    <link rel="stylesheet" href="CSS/calendar.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link href="Fonts/fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calendar-wrapper">
+
+        <table width="700" border="0">
+            <tbody>
+
+                <tr>
+                <th width="100" scope="col" class="day-name">sunday</th>
+                <th width="100" scope="col" class="day-name">monday</th>
+                <th width="100" scope="col" class="day-name">tuesday</th>
+                <th width="100" scope="col" class="day-name">wednesday</th>
+                <th width="100" scope="col" class="day-name">thursday</th>
+                <th width="100" scope="col" class="day-name">friday</th>
+                <th width="100" scope="col" class="day-name">saturday</th>
+                </tr>
+
+                <tr>
+                <td>
+                    <div class="day-cell">
+                        30
+                    </div>
+                </td>
+                
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                
+                
+                
+                <td>
+                    <div id="btn1" class="day-cell" onclick="selected_day()">
+                        1
+                    </div>
+                </td>
+     
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="day-cell">
+                            2
+                        </div>
+                    </td>
+                        
+                    <td>
+                        <div class="day-cell">
+                            3
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            4
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            5
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            6
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            7
+                        </div>
+                    </td>   
+                    
+                    <td>
+                        <div class="day-cell">
+                            8
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="day-cell">
+                            9
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            10
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            11
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            12
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            13
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            14
+                        </div>
+                    </td>   
+                    
+                    <td>
+                        <div class="day-cell">
+                            15
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="day-cell">
+                            16
+                        </div>
+                    </td>
+                            
+                    <td>
+                        <div class="day-cell">
+                            17
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            18
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            19
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            20
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            21
+                        </div>
+                    </td>   
+                    
+                    <td>
+                        <div class="day-cell">
+                            22
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="day-cell">
+                            23
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            24
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            25
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            26
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            27
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="day-cell">
+                            28
+                        </div>
+                    </td>   
+                    
+                    <td>
+                        <div class="day-cell">
+                            29
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <!-- <div id="btn1" class="week-day my-day" onclick="selected_day()">1</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">2</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">3</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">4</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">5</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">6</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">7</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">8</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">9</div>
+        <div id="btn1" class="week-day my-day" onclick="selected_day()">10</div> -->
+        <!-- <div class="week-day my-day">2</div> -->
+    </div>
+
+    <!-- <div class="center">
+        <button id="btn1" class="buttonProps blue" onclick="toggleColor()">add() & remove()</button>
+      </div> -->
+
+
+<script src="js/calendar.js"></script>
+</body>
+</html>
