@@ -1,0 +1,83 @@
+* {margin: 0; padding: 0;}
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.calendar-wrapper {
+
+    width: 710px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    /* background: red; */
+    margin-top: 70px;
+    height: auto;
+    /* color: #7E7E7E; */
+    border: 1px solid #333333;
+    
+
+}
+
+.day-name {
+
+    font-family: Roboto_Light;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: capitalize !important;
+    padding: 8px;
+    background: #1f97f2;
+
+}
+
+.day-cell {
+
+    width: 70px;
+    height: 60px;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #7E7E7E;
+    border-radius: 8px;
+    line-height: 60px;
+    text-align: center;
+    font-family: Roboto_Light;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.week-day {
+
+    /* padding: 20px; */
+    border: 1px solid #7E7E7E;
+    border-radius: 8px;
+    /* background: #beadad; */
+    width: 70px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* font-family: Roboto_Light; */
+    font-family: Roboto_Light;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+.my-day {
+
+    background: #beadad;
+    color: #000000;
+
+}
+
+.my-day-selected {
+
+    background: #0ca814;
+    color: #ffffff;
+
+}
